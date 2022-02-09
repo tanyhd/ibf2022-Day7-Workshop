@@ -1,0 +1,14 @@
+.city-style {
+  margin: 5px;
+  padding: 5px;
+  border: lightgray 1px solid;
+  font-size: 2em;
+  transition-duration: 300ms;
+
+}
+
+.city-style:hover {
+  background-color: lightblue;
+  border-radius: 8px;
+  border: black 1px solid;
+}

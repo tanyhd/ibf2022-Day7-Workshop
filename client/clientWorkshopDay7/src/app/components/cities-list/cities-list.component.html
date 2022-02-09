@@ -1,0 +1,11 @@
+<table>
+  <tr>
+    <td>
+      <h2>City: <input type="text" #cityName></h2>
+    </td>
+    <td><button type="button" (click)="addCity(cityName.value)">Add</button></td>
+  </tr>
+  <tr *ngFor="let city of citiesList">
+    <td class="city-style" [routerLink]="['/weather', city]">{{city}}</td>
+  </tr>
+</table>
